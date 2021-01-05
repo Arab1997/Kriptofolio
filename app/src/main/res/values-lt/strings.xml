@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018-2020 Andrius Baruckis www.baruckis.com | kriptofolio.app
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <string name="action_settings">"Nustatymai"</string>
+
+    <string name="retry">"Bandyti dar kartą"</string>
+    <string name="unable_refresh">"Nepavyko atnaujinti."</string>
+    <string name="unable_get_data">"Nepavyko gauti duomenų. Prašau paspausk kartojimo mygtuką bandyti dar kartą."</string>
+    <string name="unknown_error">"Nežinoma klaida."</string>
+
+    <string name="undo">"Anuliuoti"</string>
+    <string name="deleted">"Ištrinta: %1$d"</string>
+
+    <string name="time_format_am">"priešpiet"</string>
+    <string name="time_format_pm">"popiet"</string>
+
+    <string name="no_application_handle">"Jokia programa negali įgyvendinti šio prašymo."</string>
+    <string name="install_web_browser">"Prašau įdiek interneto naršyklę."</string>
+    <string name="install_email">"Prašau įdiek el. pašto klientą ir susisiek %s."</string>
+
+
+    <!-- Strings related to Main Activity -->
+
+    <string name="string_total_value_holdings">"Bendra turima vertė"</string>
+    <string name="string_total_value_on_date_time">" (%1$s UTC)"</string>
+    <string name="string_total_value_change_24h_label">"24 val "</string>
+
+    <string name="string_crypto_list_empty_primary">"Jums priklausančių kripto monetų sąrašas yra tuščias!"</string>
+    <string name="string_crypto_list_empty_secondary">"Pridėk savo kripto naudojant + mygtuką žemiau."</string>
+
+    <string name="string_column_coin_crypto_hold_amount_symbol">"Kripto moneta\nKiekis &#38; simbolis"</string>
+    <string name="string_column_coin_fiat_price_amount">"Kaina %1$s\nKiekis %2$s"</string>
+    <string name="string_column_coin_change_24h_1h_7d">"± kaina %% 1 val / 7 d\n± kaina %% 24 val\n± kiekis %1$s 24 val"</string>
+
+    <string name="sample_text_column_coin_fiat_price_amount">"Kaina $\nKiekis $"</string>
+    <string name="sample_text_column_coin_change_24h_1h_7d">"± kaina % 1 val / 7 d\n± kaina % 24 val\n± kiekis $ 24 val"</string>
+
+    <string name="sample_text_total_value_on_date_time">"Bendra turima vertė (11/03/2018 12:55:08 UTC)"</string>
+
+    <string name="action_mode_title">"Pasirinkta: %1$d"</string>
+    <string name="action_select_all">"Pasirinkti viską"</string>
+    <string name="action_delete">"Ištrinti"</string>
+
+
+    <!-- Strings related to Add Search Activity -->
+
+    <string name="activity_add_search_title">"Pridėk kripto monetą(-as)"</string>
+    <string name="activity_add_search_subtitle">"Visos kripto valiutos pagal reitingą"</string>
+
+    <string name="string_info_last_updated_on_date_time">"Paskutinį kartą atnaujinta (%1$s UTC)"</string>
+    <string name="string_info_results_of_search">"Rezultatai %1$s"</string>
+
+    <string name="action_search">"Ieškoti"</string>
+
+    <string name="search_hint">"Ieškok konkrečios monetos…"</string>
+
+    <string name="sample_text_info_last_updated_on_date_time">"Paskutinį kartą atnaujinta (11/03/2018 12:55:08 UTC)"</string>
+
+    <string name="dialog_cryptocurrency_amount_title">"Kiek turi %1$s monetų?"</string>
+    <string name="dialog_cryptocurrency_amount_hint">"Įvesk kiekį"</string>
+    <string name="dialog_cryptocurrency_amount_confirm_button">"Gerai"</string>
+    <string name="dialog_cryptocurrency_amount_cancel_button">"Atšaukti"</string>
+    <string name="dialog_cryptocurrency_amount_error">"Būtinas teisingas skaičius!"</string>
+
+
+    <!-- Strings related to Settings Activity -->
+
+    <string name="title_activity_settings">"Nustatymai"</string>
+
+    <string name="pref_general_category_title">"Bendrieji"</string>
+
+    <string name="pref_language_title">"Kalba"</string>
+
+    <string name="pref_default_language_entry">"Lietuvių"</string>
+    <string name="pref_default_language_value">"LT"</string>
+
+    <string name="pref_fiat_currency_title">"„Fiat“ valiuta"</string>
+
+    <string name="pref_default_fiat_currency_entry">"EUR - Euras (€)"</string>
+    <string name="pref_default_fiat_currency_value">"EUR"</string>
+
+    <string-array name="pref_fiat_currency_list_entries">
+        <item>"USD - JAV doleris ($)"</item>
+        <item>"ALL - Albanijos lekas (L)"</item>
+        <item>"DZD - Alžyro dinaras (د.ج)"</item>
+        <item>"ARS - Argentinos pesas ($)"</item>
+        <item>"AMD - Armėnijos dramas (֏)"</item>
+        <item>"AUD - Australijos doleris ($)"</item>
+        <item>"AZN - Azerbaidžano manatas (₼)"</item>
+        <item>"BHD - Bahreino dinaras (.د.ب)"</item>
+        <item>"BDT - Bangladešo taka (৳)"</item>
+        <item>"BYN - Baltarusijos rublis (Br)"</item>
+        <item>"BMD - Bermudos doleris ($)"</item>
+        <item>"BOB - Bolivijos Bolivianas (Bs.)"</item>
+        <item>"BAM - Bosnijos-Hercegovinos konvertuojamoji markė (KM)"</item>
+        <item>"BRL - Brazilijos realas (R$)"</item>
+        <item>"BGN - Bulgarijos levas (лв)"</item>
+        <item>"KHR - Kambodžos rielis (៛)"</item>
+        <item>"CAD - Kanados doleris ($)"</item>
+        <item>"CLP - Čilės pesas ($)"</item>
+        <item>"CNY - Kinijos juanis (¥)"</item>
+        <item>"COP - Kolumbijos pesas ($)"</item>
+        <item>"CRC - Kosta Rikos kolonas (₡)"</item>
+        <item>"HRK - Kroatijos kuna (kn)"</item>
+        <item>"CUP - Kubos pesas ($)"</item>
+        <item>"CZK - Čekijos krona (Kč)"</item>
+        <item>"DKK - Danijos krona (kr)"</item>
+        <item>"DOP - Dominikos pesas ($)"</item>
+        <item>"EGP - Egipto svaras (£)"</item>
+        <item>"EUR - Euras (€)"</item>
+        <item>"GEL - Gruzijos laris (₾)"</item>
+        <item>"GHS - Ganos sedis (₵)"</item>
+        <item>"GTQ - Gvatemalos kvetzalas (Q)"</item>
+        <item>"HNL - Hondūro lempira (L)"</item>
+        <item>"HKD - Honkongo doleris ($)"</item>
+        <item>"HUF - Vengrijos forintas (Ft)"</item>
+        <item>"ISK - Islandijos krona (kr)"</item>
+        <item>"INR - Indijos rupija (₹)"</item>
+        <item>"IDR - Indonezijos rupija (Rp)"</item>
+        <item>"IRR - Irano rialas (﷼)"</item>
+        <item>"IQD - Irako dinaras (ع.د)"</item>
+        <item>"ILS - Izraelio naujasis šekelis (₪)"</item>
+        <item>"JMD - Jamaikos doleris ($)"</item>
+        <item>"JPY - Japonijos jena (¥)"</item>
+        <item>"JOD - Jordanijos dinaras (د.ا)"</item>
+        <item>"KZT - Kazachstano tengė (₸)"</item>
+        <item>"KES - Kenijos šilingas (Sh)"</item>
+        <item>"KWD - Kuveito dinaras (د.ك)"</item>
+        <item>"KGS - Kirgizijos Somas (с)"</item>
+        <item>"LBP - Libano svaras (ل.ل)"</item>
+        <item>"MKD - Makedonijos denaras (ден)"</item>
+        <item>"MYR - Malaizijos ringitas (RM)"</item>
+        <item>"MUR - Mauricijaus rupija (₨)"</item>
+        <item>"MXN - Meksikos pesas ($)"</item>
+        <item>"MDL - Moldavijos lėja (L)"</item>
+        <item>"MNT - Mongolijos tugrikas (₮)"</item>
+        <item>"MAD - Maroko dirhamas (د.م.)"</item>
+        <item>"MMK - Mianmaro Kijatas (Ks)"</item>
+        <item>"NAD - Namibijos doleris ($)"</item>
+        <item>"NPR - Nepalo rupija (₨)"</item>
+        <item>"TWD - Naujasis Taivano doleris ($)"</item>
+        <item>"NZD - Naujosios Zelandijos doleris ($)"</item>
+        <item>"NIO - Nikaragvos kordoba (C$)"</item>
+        <item>"NGN - Nigerijos naira (₦)"</item>
+        <item>"NOK - Norvegijos krona (kr)"</item>
+        <item>"OMR - Omano rialas (ر.ع.)"</item>
+        <item>"PKR - Pakistano rupija (₨)"</item>
+        <item>"PAB - Panamos balboa (B/.)"</item>
+        <item>"PEN - Peru solis (S/.)"</item>
+        <item>"PHP - Filipinų pesas (₱)"</item>
+        <item>"PLN - Lenkijos zlotas (zł)"</item>
+        <item>"GBP - Didžiosios Britanijos svaras sterlingų (£)"</item>
+        <item>"QAR - Kataro rialas (ر.ق)"</item>
+        <item>"RON - Rumunijos lėja (lei)"</item>
+        <item>"RUB - Rusijos rublis (₽)"</item>
+        <item>"SAR - Saudo Arabijos rialas (ر.س)"</item>
+        <item>"RSD - Serbijos dinaras (дин.)"</item>
+        <item>"SGD - Singapūro doleris ($)"</item>
+        <item>"ZAR - Pietų Afrikos randas (Rs)"</item>
+        <item>"KRW - Pietų Korėjos vonas (₩)"</item>
+        <item>"SSP - Pietų Sudano svaras (£)"</item>
+        <item>"VES - Nepriklausomas bolivaras (Bs.)"</item>
+        <item>"LKR - Šri Lankos rupija (Rs)"</item>
+        <item>"SEK - Švedijos krona ( kr)"</item>
+        <item>"CHF - Šveicarijos frankas (Fr)"</item>
+        <item>"THB - Tailando batas (฿)"</item>
+        <item>"TTD - Trinidado ir Tobago doleris ($)"</item>
+        <item>"TND - Tuniso dinaras (د.ت)"</item>
+        <item>"TRY - Turkijos lira (₺)"</item>
+        <item>"UGX - Ugandos šilingas (Sh)"</item>
+        <item>"UAH - Ukrainos grivina (₴)"</item>
+        <item>"AED - Jungtinių Arabų Emyratų dirhamas (د.إ)"</item>
+        <item>"UYU - Urugvajaus pesas ($)"</item>
+        <item>"UZS - Uzbekijos sumas (so'm)"</item>
+        <item>"VND - Vietnamo dongas (₫)"</item>
+    </string-array>
+
+    <string name="pref_date_format_title">"Datos formatas"</string>
+
+    <string name="pref_default_date_format_entry">"yyyy-MM-dd"</string>
+    <string name="pref_default_date_format_value">"yyyy-MM-dd"</string>
+
+    <string name="pref_24h_switch_title">"Naudoti 24 valandų formatą"</string>
+
+    <string name="pref_24h_switch_12h_summary">"01:00 popiet"</string>
+
+
+    <string name="pref_support_category_title">"Parama"</string>
+
+    <string name="pref_rate_app_title">"Įvertink programą Google Play"</string>
+
+
+    <string name="pref_share_app_title">"Pasidalink su draugais"</string>
+
+    <string name="share_app_message">"Siūlau tau šią nemokamą kriptovaliutų portfelio Android programėlę: "</string>
+    <string name="share_app_chooser">"Pasidalink su: "</string>
+
+
+    <string name="pref_donate_crypto_title">"Paaukok kripto"</string>
+    <string name="pref_donate_crypto_summary">"Pervesk savo Bitcoin arba Etherium"</string>
+
+    <string name="dialog_donate_crypto_title">"Paaukok kripto"</string>
+    <string name="dialog_donate_crypto_message_first">"Pervesk bet kokią sumą Bitcoin arba Ethereum autoriui. Paspausk, kad nukopijuoti konkrečios kripto valiutos adresą."</string>
+    <string name="dialog_donate_crypto_positive_button">"Supratau"</string>
+
+    <string name="dialog_donate_crypto_bitcoin_address_title">"Kopijuoti Bitcoin adresą"</string>
+    <string name="dialog_donate_crypto_ethereum_address_title">"Kopijuoti Ethereum adresą"</string>
+
+    <string name="dialog_donate_crypto_message_second">"Jūsų bet kokia auka padėtų ne tik įkvėpti autorių toliau tęsti darbą bet taip pat padengti API duomenų perdavimo paslaugos prenumeratos išlaidas, jeigu tam iškiltų būtinybė."</string>
+    <string name="dialog_donate_crypto_message_third">"Ačiū! 😇"</string>
+
+    <string name="dialog_donate_crypto_bitcoin_address_copy_confirmation">"Bitcoin adresas nukopijuotas!"</string>
+    <string name="dialog_donate_crypto_ethereum_address_copy_confirmation">"Ethereum adresas nukopijuotas!"</string>
+
+
+    <string name="pref_buy_me_coffee_title">"Nupirkite man kavos"</string>
+
+
+    <string name="pref_contact_title">"Susisiekite"</string>
+    <string name="pref_contact_summary">"Turite kokių nors atsiliepimų? Siųskite el. paštu savo klausimus, pasiūlymus, pastebėtas klaidas"</string>
+
+
+    <string name="pref_support_about_title">"Apie"</string>
+
+    <string name="pref_website_title">"Interneto svetainė"</string>
+
+    <string name="pref_author_title">"Autorius Andrius Baruckis"</string>
+
+    <string name="pref_source_title">"Pamatyk kodą"</string>
+
+    <string name="pref_privacy_policy_title">"Privatumo politika"</string>
+
+    <string name="pref_third_party_software_title">"Trečiųjų šalių programinė įranga"</string>
+    <string name="pref_third_party_software_summary">"Nemokamo &#38; atvirojo kodo licencijos"</string>
+
+    <string name="pref_license_title">"Licencija"</string>
+    <string name="pref_license_summary">"Autorinės teisės"</string>
+
+
+    <!-- Strings related to Libraries Licenses Fragment -->
+
+    <string name="fragment_libraries_licenses_list_title">"Trečiųjų šalių programinė įranga"</string>
+    <string name="fragment_libraries_licenses_list_subtitle">"Pagrindinės bibliotekos"</string>
+
+    <string name="action_more">"Daugiau"</string>
+
+    <string name="button_read_license">"Skaityti licenciją"</string>
+    <string name="button_project_link">"Projekto nuoroda"</string>
+
+    <string name="library_license_name_glide">"BSD, dalis MIT ir Apache 2.0"</string>
+
+    <string name="library_license_name_glide_okhttp">@string/library_license_name_glide</string>
+
+    <string name="library_developer_junit">"Erich Gamma, Kent Beck &#38; JUnit komanda"</string>
+
+
+    <!-- Strings related to License Fragment -->
+
+    <string name="fragment_license_title">"Licencija"</string>
+
+
+    <!-- Strings related to Oss Licenses Menu Activity -->
+
+    <string name="activity_oss_licenses_menu_title">"Visų bibliotekų licencijos"</string>
+
+</resources>

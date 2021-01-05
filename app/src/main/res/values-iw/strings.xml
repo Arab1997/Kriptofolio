@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018-2020 Andrius Baruckis www.baruckis.com | kriptofolio.app
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <string name="action_settings">"הגדרות"</string>
+
+    <string name="retry">"ניסיון חוזר"</string>
+    <string name="unable_refresh">"לא ניתן לרענן."</string>
+    <string name="unable_get_data">"לא ניתן לקבל נתונים. נא ללחוץ על כפתור ניסיון חוזר ונסו שוב."</string>
+    <string name="unknown_error">"שגיאה לא ידועה."</string>
+
+    <string name="undo">"בטל"</string>
+    <string name="deleted">"נמחק: %1$d"</string>
+
+    <string name="time_format_am">"לפנה"צ"</string>
+    <string name="time_format_pm">"אחה"צ"</string>
+
+    <string name="no_application_handle">"אין אפליקציה שיכולה לענות על בקשה זו."</string>
+    <string name="install_web_browser">"נא להתקין דפדפן."</string>
+    <string name="install_email">".%s נא להתקין לקוח דואר אלקטרוני ואיש קשר"</string>
+
+
+    <!-- Strings related to Main Activity -->
+
+    <string name="string_total_value_holdings">"ערך אחזקות סה\"כ"</string>
+    <string name="string_total_value_on_date_time">" (UTC %1$s)"</string>
+    <string name="string_total_value_change_24h_label">" h 24"</string>
+
+    <string name="string_crypto_list_empty_primary">"רשימת המטבעות המבוזרים שבבעלותך ריקה!"</string>
+    <string name="string_crypto_list_empty_secondary">"הוסף/י את המטבעות המבוזרים שלכם באמצעות כפתור + שלמטה."</string>
+
+    <string name="string_column_coin_crypto_hold_amount_symbol"> מטבע אנוסים\nסכום"&amp;"סמל </string>
+    <string name="string_column_coin_fiat_price_amount">"%2$s מחיר\n%1$s סכום"</string>
+    <string name="string_column_coin_change_24h_1h_7d">"מחיר %% ± 1 h / 7 ד\nh המחיר %% ± 24\nסכום ± 24 h %1$s"</string>
+
+    <string name="sample_text_column_coin_fiat_price_amount">"$ מחיר\n$ סכום"</string>
+    <string name="sample_text_column_coin_change_24h_1h_7d">"מחיר % ± 1 h / 7 ד\nh המחיר % ± 24\nסכום ± 24 $ h"</string>
+
+    <string name="sample_text_total_value_on_date_time">"ערך אחזקות סה\"כ (2018/11/03 UTC 00:55:08)"</string>
+
+    <string name="action_mode_title">"נבחר: %1$d"</string>
+    <string name="action_select_all">"בחר הכול"</string>
+    <string name="action_delete">"מחק"</string>
+
+
+    <!-- Strings related to Add Search Activity -->
+
+    <string name="activity_add_search_title">"הוספת מטבע הצפנה (-s)"</string>
+    <string name="activity_add_search_subtitle">"כל cryptocurrencies ידי דירוג"</string>
+
+    <string name="string_info_last_updated_on_date_time">"(UTC %1$s) עודכן לאחרונה"</string>
+    <string name="string_info_results_of_search">"תוצאות: %1$s"</string>
+
+    <string name="action_search">"לחפש"</string>
+
+    <string name="search_hint">"חפש מטבע ספציפי …"</string>
+
+    <string name="sample_text_info_last_updated_on_date_time">"עודכן לאחרונה (11/03/2018 12:55:08 UTC)"</string>
+
+    <string name="dialog_cryptocurrency_amount_title">"כמה מטבעות %1$s יש לך?"</string>
+    <string name="dialog_cryptocurrency_amount_hint">"הכנס/י סכום"</string>
+    <string name="dialog_cryptocurrency_amount_confirm_button">"אישור"</string>
+    <string name="dialog_cryptocurrency_amount_cancel_button">"בטל"</string>
+    <string name="dialog_cryptocurrency_amount_error">"דרוש מספר חוקי!"</string>
+
+
+    <!-- Strings related to Settings Activity -->
+
+    <string name="title_activity_settings">"הגדרות"</string>
+
+    <string name="pref_general_category_title">"כללי"</string>
+
+    <string name="pref_language_title">"שפה"</string>
+
+    <string name="pref_default_language_entry">"עִברִית"</string>
+    <string name="pref_default_language_value">"HE"</string>
+
+    <string name="pref_fiat_currency_title">"מטבע פיאט"</string>
+
+    <string name="pref_default_fiat_currency_entry">"ILS - שקל ישראלי (₪)"</string>
+    <string name="pref_default_fiat_currency_value">"ILS"</string>
+
+    <string-array name="pref_fiat_currency_list_entries">
+        <item>"USD - דולר אמריקאי ($)"</item>
+        <item>"ALL - לק אלבני (L)"</item>
+        <item>"DZD - د.ج) דינר אלג'יראי)"</item>
+        <item>"ARS - פזו ארגנטינאי ($)"</item>
+        <item>"AMD - דרמה ארמנית (֏)"</item>
+        <item>"AUD - דולר אוסטרלי ($)"</item>
+        <item>"AZN - מנאט אזרביג'אן (₼)"</item>
+        <item>"BHD - د.ب.) דינר בחרריני)"</item>
+        <item>"BDT - טאקה בנגלדש (৳)"</item>
+        <item>"BYN - רובל בלארוס (Br)"</item>
+        <item>"BMD - דולר ברמודני ($)"</item>
+        <item>"BOB - בוליביאנו בוליביה (Bs.)"</item>
+        <item>"BAM - בוסניה-הרצגובינה סימן להמרה (KM)"</item>
+        <item>"BRL - ריאל ברזילאי (R$)"</item>
+        <item>"BGN - לב בולגרי (лв)"</item>
+        <item>"KHR - ריאל הקמבודי (៛)"</item>
+        <item>"CAD - דולר קנדי ($)"</item>
+        <item>"CLP - פזו צ\'יליאני ($)"</item>
+        <item>"CNY - יואן (¥)"</item>
+        <item>"COP - פזו קולומביאני ($)"</item>
+        <item>"CRC - קולון בקוסטה ריקה (₡)"</item>
+        <item>"HRK - קונה קרואטית (kn)"</item>
+        <item>"CUP - פזו קובני ($)"</item>
+        <item>"CZK - קורונה הצ\'כית (Kč)"</item>
+        <item>"DKK - קרונה דנית (kr)"</item>
+        <item>"DOP - פזו דומיניקני ($)"</item>
+        <item>"EGP - פאונד מצרי (£)"</item>
+        <item>"EUR - אירו (€)"</item>
+        <item>"GEL - לארי הגיאורגי (₾)"</item>
+        <item>"GHS - סדי גאנה (₵)"</item>
+        <item>"GTQ - קווצאל גואטמלה (Q)"</item>
+        <item>"HNL - למפירא הונדורית (L)"</item>
+        <item>"HKD - דולר הונג קונגי ($)"</item>
+        <item>"HUF - פורינט הונגרי (Ft)"</item>
+        <item>"ISK - קרונה איסלנדית (kr)"</item>
+        <item>"INR - רופי הודי (₹)"</item>
+        <item>"IDR - רופיה האינדונזיים (Rp)"</item>
+        <item>"IRR - ﷼) ריאל איראני)"</item>
+        <item>"IQD - ع.د) דינר עירק)"</item>
+        <item>"ILS - שקל ישראלי (₪)"</item>
+        <item>"JMD - דולר ג'מייקני ($)"</item>
+        <item>"JPY - ין יפני (¥)"</item>
+        <item>"JOD - د.ا) דינר ירדני)"</item>
+        <item>"KZT - טנגה קזחסטני (₸)"</item>
+        <item>"KES - שילינג קניה (Sh)"</item>
+        <item>"KWD - د.ك) דינר כווית)"</item>
+        <item>"KGS - קירגיסטני סום (с)"</item>
+        <item>"LBP - ل.ل) לירה לבנונית)"</item>
+        <item>"MKD - דנאר מקדוני (ден)"</item>
+        <item>"MYR - רינגיט מלזי (RM)"</item>
+        <item>"MUR - רופי מאוריציאן (₨)"</item>
+        <item>"MXN - פזו מקסיקני ($)"</item>
+        <item>"MDL - לאו מולדובה (L)"</item>
+        <item>"MNT - טוגריק מונגולי (₮)"</item>
+        <item>"MAD - د.م.) דירהם מרוקאי)"</item>
+        <item>"MMK - מיאנמר קיוט (Ks)"</item>
+        <item>"NAD - דולר נמיבי ($)"</item>
+        <item>"NPR - הרופי הנפאלי (₨)"</item>
+        <item>"TWD - טייוואן דולר ניו ($)"</item>
+        <item>"NZD - דולר ניו זילנדי ($)"</item>
+        <item>"NIO - ניקרגואה קורדובה (C$)"</item>
+        <item>"NGN - נאירה הניגרית (₦)"</item>
+        <item>"NOK - כתר נורבגי (kr)"</item>
+        <item>"OMR - ر.ع.) עומני ריאל)"</item>
+        <item>"PKR - רופי פקיסטני (₨)"</item>
+        <item>"PAB - בלבואה פנמנית (B/.)"</item>
+        <item>"PEN - סול פרואני (S/.)"</item>
+        <item>"PHP - פיליפיני Piso (₱)"</item>
+        <item>"PLN - זלוטי פולני (zł)"</item>
+        <item>"GBP - לירה שטרלינג (£)"</item>
+        <item>"QAR - ر.ق) ריאל קטארי)"</item>
+        <item>"RON - לאו רומני (lei)"</item>
+        <item>"RUB - רובל רוסי (₽)"</item>
+        <item>"SAR - ر.س) ריאל סעודי)"</item>
+        <item>"RSD - דינר סרבי (дин.)"</item>
+        <item>"SGD - דולר סינגפורי ($)"</item>
+        <item>"ZAR - ראנד דרום אפריקאי (Rs)"</item>
+        <item>"KRW - וון דרום קוראני (₩)"</item>
+        <item>"SSP - לירה דרום סודן (£)"</item>
+        <item>"VES - בוליבר הריבון (Bs.)"</item>
+        <item>"LKR - רופי סרי לנקי (Rs)"</item>
+        <item>"SEK - כתר שוודי ( kr)"</item>
+        <item>"CHF - פרנק שוויצרי (Fr)"</item>
+        <item>"THB - באט תאילנדי (฿)"</item>
+        <item>"TTD - דולר טרינידד וטובגו ($)"</item>
+        <item>"TND - د.ت) דינר תוניסאי)"</item>
+        <item>"TRY - לירה טורקית (₺)"</item>
+        <item>"UGX - שילינג אוגנדי (Sh)"</item>
+        <item>"UAH - אוקראינית Hryvnia (₴)"</item>
+        <item>"AED - د.إ) דירהם של איחוד האמירויות הערביות)"</item>
+        <item>"UYU - פזו אורוגוואי ($)"</item>
+        <item>"UZS - אוזבקיסטן סום (so'm)"</item>
+        <item>"VND - דונג וייטנאמי (₫)"</item>
+    </string-array>
+
+    <string name="pref_date_format_title">"פורמט תאריך"</string>
+
+    <string name="pref_default_date_format_entry">"dd/MM/yyyy"</string>
+    <string name="pref_default_date_format_value">"dd/MM/yyyy"</string>
+
+    <string name="pref_24h_switch_title">"השתמש בתבנית 24 שעות ביממה"</string>
+
+    <string name="pref_24h_switch_12h_summary">"01:00 אחה"צ"</string>
+
+
+    <string name="pref_support_category_title">"תמיכה"</string>
+
+    <string name="pref_rate_app_title">"דרג את האפליקציה ב- Google Play"</string>
+
+
+    <string name="pref_share_app_title">"שתף עם החברים שלך"</string>
+
+    <string name="share_app_message">"אני ממליץ לך על אפליקציה חינם זו לאנדרואיד לניהול תיקי מטבעות מבוזרים: "</string>
+    <string name="share_app_chooser">"שתף/י עם: "</string>
+
+
+    <string name="pref_donate_crypto_title">"תרום עם הצפנה"</string>
+    <string name="pref_donate_crypto_summary">"שלח Bitcoin שלך או Etherium"</string>
+
+    <string name="dialog_donate_crypto_title">"תרום עם הצפנה"</string>
+    <string name="dialog_donate_crypto_message_first">"שלח סכום כלשהו של ביטקוין או אתריום למחבר. לחץ/י כדי להעתיק כתובת ספציפית של מטבעות מבוזרים."</string>
+    <string name="dialog_donate_crypto_positive_button">"הבנתי."</string>
+
+    <string name="dialog_donate_crypto_bitcoin_address_title">"העתק כתובת Bitcoin."</string>
+    <string name="dialog_donate_crypto_ethereum_address_title">"העתק כתובת Ethereum."</string>
+
+    <string name="dialog_donate_crypto_message_second">"כל תרומה מצדך לא רק תעודד את המחבר להמשיך לפתח אלא גם תכסה על עלויות הרישום לשירות נתוני API במקרה הצורך."</string>
+    <string name="dialog_donate_crypto_message_third">"תודה! 😇"</string>
+
+    <string name="dialog_donate_crypto_bitcoin_address_copy_confirmation">"כתובת Bitcoin הועתקה!"</string>
+    <string name="dialog_donate_crypto_ethereum_address_copy_confirmation">"כתובת Ethereum הועתקה!"</string>
+
+
+    <string name="pref_buy_me_coffee_title">"קנה לי קפה"</string>
+
+
+    <string name="pref_contact_title">"איש קשר"</string>
+    <string name="pref_contact_summary">"יש לך משוב? שלח/י בדואר אלקטרוני את השאלות, ההצעות, דוחות הבאגים שלך"</string>
+
+
+    <string name="pref_support_about_title">"על אודות"</string>
+
+    <string name="pref_website_title">"אתר אינטרנט"</string>
+
+    <string name="pref_author_title">"מחבר Andrius Baruckis"</string>
+
+    <string name="pref_source_title">"הצג מקור על"</string>
+
+    <string name="pref_privacy_policy_title">"מדיניות פרטיות"</string>
+
+    <string name="pref_third_party_software_title">"תוכנה צד שלישי"</string>
+    <string name="pref_third_party_software_summary"> קוד פתוח חופשי"&amp;"רישיונות </string>
+
+
+    <string name="pref_license_title">"רישיון"</string>
+    <string name="pref_license_summary">"זכויות יוצרים"</string>
+
+
+    <!-- Strings related to Libraries Licenses Fragment -->
+
+    <string name="fragment_libraries_licenses_list_title">"תוכנה צד שלישי"</string>
+    <string name="fragment_libraries_licenses_list_subtitle">"ספריות ראשיות"</string>
+
+    <string name="action_more">"עוד"</string>
+
+    <string name="button_read_license">"קרא/י רישיון"</string>
+    <string name="button_project_link">"קישור לפרויקט"</string>
+
+    <string name="library_license_name_glide">"BSD, MIT חלקי ו-Apache 2.0"</string>
+
+    <string name="library_license_name_glide_okhttp">@string/library_license_name_glide</string>
+
+    <string name="library_developer_junit">"Erich Gamma, Kent Beck וצוות Junit"</string>
+
+
+    <!-- Strings related to License Fragment -->
+
+    <string name="fragment_license_title">"רישיון"</string>
+
+
+    <!-- Strings related to Oss Licenses Menu Activity -->
+
+    <string name="activity_oss_licenses_menu_title">"רישיונות לכל הספריות"</string>
+
+</resources>

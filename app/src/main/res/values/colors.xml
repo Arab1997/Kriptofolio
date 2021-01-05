@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2018-2020 Andrius Baruckis www.baruckis.com | kriptofolio.app
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <color name="colorForMainTopBar">@color/colorPrimary</color>
+
+    <color name="colorForMainCollapsingBar">@color/colorPrimary</color>
+    <color name="colorForMainCollapsingBarScrim">@color/colorPrimaryDark</color>
+
+    <color name="colorForValueChangePositive">@color/colorGreen</color>
+    <color name="colorForValueChangeNegative">@color/colorRed</color>
+
+    <color name="colorForMainColumnNames">@color/colorNavy</color>
+    <color name="colorForMainColumnNamesText">@color/colorWhite</color>
+
+    <color name="colorForMainListBackground">@color/colorLightGrey</color>
+    <color name="colorForMainListItemBackground">@color/colorWhite</color>
+    <color name="colorForMainListItemSelectedBackground">@color/colorGrey</color>
+    <color name="colorForMainListItemPrimeText">@color/colorBlack</color>
+    <color name="colorForMainListItemText">@android:color/tertiary_text_dark</color>
+
+    <color name="colorTintForActionModeIcons">@color/colorWhite</color>
+    <color name="colorForActionModeStatusBar">@color/colorBlack</color>
+
+    <color name="colorForImageIconFrontImageBackground">@color/colorWhite</color>
+    <color name="colorForImageIconFrontTextBackground">@color/colorPrimaryDark</color>
+    <color name="colorForImageIconRearBackground">@color/colorDarkGrey</color>
+    <color name="colorForImageIconText">@color/colorWhite</color>
+
+    <color name="colorForAddSearchListLastUpdatedBackground">@color/colorNavy</color>
+    <color name="colorForAddSearchListLastUpdatedText">@color/colorWhite</color>
+    <color name="colorForAddSearchListItemPrimeText">@color/colorBlack</color>
+    <color name="colorForAddSearchListItemText">@android:color/tertiary_text_dark</color>
+
+    <color name="colorForSwipeRefreshProgress1">@color/colorNavy</color>
+    <color name="colorForSwipeRefreshProgress2">@color/colorPrimary</color>
+    <color name="colorForSwipeRefreshProgress3">@color/colorAccent</color>
+
+    <color name="colorTintForFab">@color/colorWhite</color>
+    <color name="colorTintForSearchToolbar">@color/colorWhite</color>
+    <color name="colorForPreferenceIcon">@color/colorPrimaryDark</color>
+
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="colorAccent">#B7695C</color>
+
+    <color name="colorWhite">#ffffffff</color>
+    <color name="colorBlack">#ff000000</color>
+    <color name="colorLightGrey">#f5f5f5</color>
+    <color name="colorGrey">#e0e0e0</color>
+    <color name="colorDarkGrey">#ff888888</color>
+    <color name="colorNavy">#01385e</color>
+
+    <color name="colorRed">#C62828</color>
+    <color name="colorGreen">#2E7D32</color>
+
+</resources>
